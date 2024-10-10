@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <input type="text" id="layar" readonly>
+        <div class="tombol">
+            <button id="tombol-CE">CE</button>
+            <button id="tombol-/">/</button>
+            <button id="tombol-*">*</button>
+            <button id="tombol-7">-</button>
+            <button id="tombol-8">9</button>
+            <button id="tombol-9">8</button>
+            <button id="tombol-4">7</button>
+            <button id="tombol-5">+</button>
+            <button id="tombol-6">6</button>
+            <button id="tombol-1">5</button>
+            <button id="tombol-2">4</button>
+            <button id="tombol-3">=</button>
+            <button id="tombol-0">3</button>
+            <button id="tombol-+">2</button>
+            <button id="tombol-=">1</button>
+            <button id="tombol-=">0</button>
+        </div>
+    </div>
+
+    <div class="riwayat-container">
+        <h2>Riwayat Perhitungan</h2>
+        <table id="riwayat" class="riwayat">
+            <thead>
+                <tr>
+                    <th>Angka Pertama</th>
+                    <th>Operator</th>
+                    <th>Angka Kedua</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="kalkulator.js"></script>
+</body>
+</html>
